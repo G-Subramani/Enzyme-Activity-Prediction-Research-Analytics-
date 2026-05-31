@@ -9,6 +9,7 @@ The solution utilized historical experimental data, enzyme characteristics, assa
 In parallel, I developed interactive research dashboards that provided scientists and leadership teams with real-time visibility into experimental performance, model predictions, and laboratory outcomes.
 ________________________________________
 Business Challenge
+
 The research organization was engaged in enzyme discovery and optimization programs where scientists routinely evaluated large numbers of enzyme variants.
 Several challenges existed:
 •	Large experimental search spaces
@@ -21,6 +22,7 @@ Researchers needed a data-driven approach that could predict enzyme performance 
 The goal was to reduce the number of laboratory experiments while maintaining high confidence in candidate selection.
 ________________________________________
 Scientific Context
+
 Enzymes are biological catalysts whose activity can vary significantly based on:
 •	Protein sequence characteristics
 •	Structural properties
@@ -32,6 +34,7 @@ Historically, researchers relied heavily on iterative experimentation to identif
 Machine learning offered an opportunity to learn patterns from historical experimental data and predict enzyme activity before conducting physical experiments.
 ________________________________________
 Solution
+
 I designed and developed a machine learning-based prediction platform that enabled scientists to estimate enzyme activity using historical experimental observations and engineered biological features.
 The platform consisted of:
 •	Experimental data pipelines
@@ -42,6 +45,7 @@ The platform consisted of:
 The system served as a decision-support tool for enzyme engineering teams and significantly improved candidate prioritization workflows.
 ________________________________________
 Data Sources
+
 The platform integrated multiple research datasets.
 Experimental Assay Data
 Included:
@@ -51,14 +55,18 @@ Included:
 •	Laboratory observations
 ________________________________________
 Enzyme Characteristics
+
 Included:
+
 •	Protein properties
 •	Biochemical attributes
 •	Experimental conditions
 •	Engineering modifications
 ________________________________________
 Process Parameters
+
 Included:
+
 •	Temperature
 •	pH conditions
 •	Reaction duration
@@ -67,7 +75,9 @@ Included:
 These variables served as critical predictors of enzyme performance.
 ________________________________________
 Data Science Workflow
+
 Data Preparation
+
 Experimental datasets underwent:
 •	Data quality validation
 •	Missing value treatment
@@ -77,6 +87,7 @@ Experimental datasets underwent:
 Special attention was given to ensuring scientific consistency and reproducibility.
 ________________________________________
 Feature Engineering
+
 Biological and experimental features were engineered to capture:
 •	Enzyme characteristics
 •	Reaction behavior
@@ -85,9 +96,11 @@ Biological and experimental features were engineered to capture:
 Feature engineering played a critical role in improving model accuracy.
 ________________________________________
 Machine Learning Framework
+
 Several machine learning algorithms were evaluated to predict enzyme activity.
 ________________________________________
 Random Forest Models
+
 Random Forest models were developed to:
 •	Capture nonlinear biological relationships
 •	Identify key experimental drivers
@@ -96,6 +109,7 @@ Random Forest models were developed to:
 The ensemble architecture reduced overfitting and provided stable predictions across different experimental scenarios.
 ________________________________________
 XGBoost Models
+
 XGBoost models were implemented to improve predictive performance and ranking accuracy.
 The model effectively captured:
 •	Complex feature interactions
@@ -104,6 +118,7 @@ The model effectively captured:
 XGBoost consistently delivered high predictive accuracy and became one of the primary models for enzyme activity prediction.
 ________________________________________
 Model Evaluation
+
 Models were evaluated using:
 •	Cross-validation
 •	Regression performance metrics
@@ -112,6 +127,7 @@ Models were evaluated using:
 Predictions were continuously compared against laboratory results to ensure scientific reliability.
 ________________________________________
 Explainable AI for Researchers
+
 A key requirement was building trust among scientists.
 To support interpretability, feature importance analysis was performed to identify:
 •	Which biological parameters most influenced enzyme activity
@@ -120,6 +136,7 @@ To support interpretability, feature importance analysis was performed to identi
 This helped researchers understand not only the prediction but also the reasoning behind it.
 ________________________________________
 Research Analytics Platform
+
 In addition to predictive modeling, I developed a comprehensive research analytics environment.
 Dash (Plotly) Applications
 Interactive applications enabled researchers to:
@@ -131,6 +148,7 @@ Interactive applications enabled researchers to:
 The dashboards provided self-service analytics capabilities to research teams.
 ________________________________________
 Power BI Executive Dashboards
+
 Power BI dashboards were developed for scientific leadership and stakeholders.
 Key metrics included:
 •	Experiment success rates
@@ -141,6 +159,7 @@ Key metrics included:
 These dashboards improved visibility across research operations.
 ________________________________________
 Automation & Monitoring
+
 The platform automated several manual processes.
 Automated Prediction Pipelines
 As new experimental data became available:
@@ -150,6 +169,7 @@ As new experimental data became available:
 This reduced manual reporting effort and accelerated research feedback cycles.
 ________________________________________
 Real-Time Experiment Monitoring
+
 Scientists could monitor:
 •	Experimental progress
 •	Candidate performance
@@ -158,6 +178,7 @@ Scientists could monitor:
 This enabled faster and more informed research decisions.
 ________________________________________
 Technologies Used
+
 Machine Learning
 •	XGBoost
 •	Random Forest
@@ -177,6 +198,7 @@ Research Analytics
 •	Scientific Reporting
 ________________________________________
 Challenges Solved
+
 High Experimental Costs
 Laboratory experiments required significant time and resources.
 Solution:
@@ -198,6 +220,7 @@ Solution:
 Applied ensemble machine learning methods capable of capturing nonlinear biological patterns.
 ________________________________________
 Business & Research Impact
+
 The platform delivered significant value to research teams by:
 •	Improving enzyme candidate selection
 •	Reducing unnecessary laboratory experimentation
@@ -209,6 +232,7 @@ The platform delivered significant value to research teams by:
 The solution transformed traditional experimental workflows into a predictive and intelligence-driven research process, enabling scientists to focus resources on the most promising enzyme candidates.
 ________________________________________
 My Contribution
+
 As a Research Scientist (Data Science Focus), I led the development of machine learning solutions supporting enzyme discovery and optimization, including:
 •	Experimental data analysis
 •	Feature engineering
