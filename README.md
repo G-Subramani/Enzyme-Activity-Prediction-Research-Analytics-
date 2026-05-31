@@ -2,6 +2,7 @@
 Accelerating Enzyme Discovery Through Machine Learning and Experimental Intelligence.
 
 Overview
+
 Biotechnology research often involves screening thousands of enzyme variants to identify candidates with desirable biological and catalytic properties. Traditional laboratory experimentation is expensive, time-consuming, and resource intensive, requiring researchers to evaluate large numbers of enzyme variants before discovering high-performing candidates.
 To accelerate the enzyme engineering process, I developed an AI-driven Enzyme Activity Prediction Platform that leveraged machine learning, predictive analytics, and real-time research monitoring to support scientific decision-making.
 The solution utilized historical experimental data, enzyme characteristics, assay measurements, and biological parameters to predict enzyme activity before laboratory validation. This enabled researchers to prioritize promising enzyme candidates, reduce unnecessary experiments, and improve research productivity.
